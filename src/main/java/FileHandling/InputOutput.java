@@ -14,9 +14,9 @@ public class InputOutput {
         int wordCount = wordCount(path);
         System.out.println(wordCount);
 
-//        Map <String, Integer> wordFrequency = wordFrequency(path);
-//        System.out.println(wordFrequency);
-//
+        Map <String, Integer> wordFrequency = wordFrequency(path);
+        System.out.println(wordFrequency);
+
     }
 
     public static int wordCount (String path){
